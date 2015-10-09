@@ -31,7 +31,7 @@ export default class ControlPanel extends Component {
 
     render() {
         return (
-          <div>
+          <div className="MainControlPanel">
 <SideBar teamDp="http://localhost:3000/assets/icons/prendoricon-1bb51131c4d2de4f00934d43e3d4b189cadc706f457069c3005aaeddc1204102.png"
                      userDp="http://localhost:3000/assets/apple-touch-icon-120x120-efce3e5425f324ff6c8786ad41969252a87e18903f3199ff93f6fc55d12bad70.png"
                      username="Xtterix"

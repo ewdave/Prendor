@@ -694,7 +694,6 @@ export default class BrowseWork extends Component {
                 </div>
 
                 <div className="BySkill">
-                    <GeminiScrollbar className='BySkill'>
                         <div className="full start-left">
 
                             <ReactCSSTransitionGroup transitionAppear={true} transitionName="project">
@@ -709,7 +708,6 @@ export default class BrowseWork extends Component {
                                 }
                             </ReactCSSTransitionGroup>
                         </div>
-                    </GeminiScrollbar>
                 </div>
 
 

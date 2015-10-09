@@ -1,6 +1,9 @@
+@import "./../../css/constants";
+
 .BidPlatform {
-    height: 505px;
+    height: auto;
     width: 100%;
+    position: relative;
 }
 
 
@@ -9,6 +12,8 @@
     background-color: #f7f7f7;
     width: 100%;
     height: auto;
+    border-bottom: 1px solid #ffffff;
+    box-shadow: inset 0 -1px 1px -1px $b-btm-color;
 
 }
 
@@ -65,19 +70,19 @@
 .BySkill {
     margin: 0 0;
     height: 100%;
-    padding: 0 0;
     width: 100%;
 }
 
 
 @media screen and (max-width: 768px){
     .BySkill {
-        padding: 0 0;
+        padding-top: 2px;
         width: 100%;
         height: 100%;
     }
 
-   
+
+
     .Duration {
         width: 150px;
         display: inline-block;
